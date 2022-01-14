@@ -1,0 +1,122 @@
+/* My attempt at recreating all the styles of the website after
+looking at the original website once and disabling the original stylesheet */
+
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+* {
+	margin: 0;
+	box-sizing: inherit;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Press Start 2P", sans-serif;
+	color: #eee;
+	background-color: #222;
+	/* background-color: #60b347; */
+}
+
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	font-size: 3em;
+}
+
+.number {
+	text-align: center;
+	font-size: 3em;
+	margin-top: 0.7%;
+	background-color: grey;
+	color: black;
+	padding: 5px 0;
+}
+
+.again {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: none;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #555; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	font-family: "Press Start 2P", sans-serif;
+	font-size: 2rem;
+	font-style: italic;
+}
+
+.between {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 1.3rem;
+	margin-right: 16px;
+	margin-top: 12px;
+}
+
+main {
+	position: relative;
+	margin-top: 2em;
+}
+
+.left {
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	align-content: center;
+	text-align: center;
+}
+
+.guess {
+	display: block;
+	width: 35%;
+	height: 50%;
+	margin: 12rem auto 0.5rem;
+	padding: auto;
+	text-align: center;
+	font-family: "Press Start 2P", sans-serif;
+	height: 3em;
+	font-size: 2rem;
+}
+
+.check {
+	border: none;
+	margin-top: 10px;
+	background-color: #555; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	font-family: "Press Start 2P", sans-serif;
+	font-size: 2rem;
+	font-style: italic;
+}
+
+.right {
+	margin: 8rem auto;
+	float: right;
+	height: 100%;
+	width: 45%;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.message {
+	margin-bottom: 2rem;
+	margin-left: -7rem;
+}
+
+p {
+	margin-top: 1rem;
+}
+
+.label-highscore {
+	padding-left: 6rem;
+}
